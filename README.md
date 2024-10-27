@@ -54,7 +54,7 @@ gnome-extensions disable confetti@ronilaukkarinen && gnome-extensions enable con
 With that command you can program things like [confetti-receiver](https://github.com/ronilaukkarinen/raycast-confetti-receiver).
 
 ## Logging
-
+ 
 ```bash
 journalctl /usr/bin/gnome-shell -f
 ```

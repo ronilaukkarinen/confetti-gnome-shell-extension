@@ -45,6 +45,20 @@ You can also toggle the extension using GNOME Tweaks or the Extensions app.
 
 Once activated, the confetti animation will start immediately. To stop the animation, simply disable the extension.
 
+To re-apply animation, use this:
+
+```bash
+gnome-extensions disable confetti@ronilaukkarinen && gnome-extensions enable confetti@ronilaukkarinen
+```
+
+With that command you can program things like [confetti-receiver](https://github.com/ronilaukkarinen/raycast-confetti-receiver).
+
+## Logging
+
+```bash
+journalctl /usr/bin/gnome-shell -f
+```
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

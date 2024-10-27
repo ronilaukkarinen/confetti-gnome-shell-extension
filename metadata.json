@@ -1,0 +1,13 @@
+{
+  "uuid": "confetti@ronilaukkarinen",
+  "name": "Confetti Effect",
+  "description": "A confetti animation overlay for GNOME Shell.",
+  "version": 1,
+  "shell-version": [
+    "42",
+    "43",
+    "44"
+  ],
+  "url": "https://github.com/ronilaukkarinen/confetti-gnome-shell-extension",
+  "settings-schema": "org.gnome.shell.extensions.confetti"
+}
